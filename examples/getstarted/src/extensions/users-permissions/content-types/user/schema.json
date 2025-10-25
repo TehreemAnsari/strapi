@@ -67,6 +67,10 @@
       "type": "media",
       "multiple": false,
       "required": false
+    },
+    "read_audit_logs": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

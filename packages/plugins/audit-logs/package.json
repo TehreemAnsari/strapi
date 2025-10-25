@@ -1,0 +1,16 @@
+{
+    "name": "@strapi/plugin-audit-logs",
+    "version": "1.0.0",
+    "description": "Automated Audit Logging plugin for Strapi",
+    "main": "server/register.ts",
+    "strapi": {
+        "name": "audit-logs",
+        "displayName": "Audit Logs",
+        "description": "Captures create/update/delete actions for Content API"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^20",
+        "typescript": "5.4.4"
+    }
+}
